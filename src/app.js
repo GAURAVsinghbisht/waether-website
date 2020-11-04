@@ -102,3 +102,5 @@ app.listen(port,()=>{
 console.log('Server is up and running on ' + port);
 });  // callback function argument is optional in listen method
 
+
+// nodemon src/app.js -e js,hbs

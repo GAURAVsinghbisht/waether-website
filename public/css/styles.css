@@ -37,7 +37,7 @@ header a{
 
 }
 .portrait{
-    width:250px;
+    width:500px;
 }
 
 input{
@@ -51,4 +51,11 @@ button{
     background: #888888;
     color: white;
     padding: 8px;
+}
+
+body{
+   /*background-image: url("public/img/download.png");*/
+   /*background-image: url("./public/img/myPic.jpg");*/
+   /*background-image: url("../img/download.png");*/
+    /*background-color: aquamarine;*/
 }
