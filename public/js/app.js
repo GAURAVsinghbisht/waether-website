@@ -1,8 +1,5 @@
 
 // using fetch api
-
-
-
 const form = document.querySelector('form');
 const inputElement = document.querySelector('input')
 const messageOne  = document.querySelector('#msg-1')
