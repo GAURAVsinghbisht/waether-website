@@ -2,10 +2,13 @@
 const path = require('path');
 const express = require('express');
 const hbs = require('hbs');
-const app = express()
 const geocodeProp = require('./utils/geocode')
 const forecastProp = require('./utils/forecast')
 const request = require('postman-request');
+
+const app = express()
+
+const port = process.env.Port || 3000;
 
 
 // Define paths for express conifg
@@ -95,7 +98,7 @@ app.get('*',(req,res)=>{
     })
 })
 
-app.listen(3000,()=>{
-console.log('Server is up and running')
+app.listen(port,()=>{
+console.log('Server is up and running on' + port);
 });  // callback function argument is optional in listen method
 
