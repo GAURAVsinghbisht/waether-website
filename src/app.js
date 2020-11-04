@@ -8,7 +8,7 @@ const request = require('postman-request');
 
 const app = express()
 
-const port = process.env.Port || 3000;
+const port = process.env.PORT || 3000;
 
 
 // Define paths for express conifg
@@ -99,6 +99,6 @@ app.get('*',(req,res)=>{
 })
 
 app.listen(port,()=>{
-console.log('Server is up and running on' + port);
+console.log('Server is up and running on ' + port);
 });  // callback function argument is optional in listen method
 
