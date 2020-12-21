@@ -27,7 +27,7 @@ hbs.registerPartials(partialsPath)
 app.get('',(req,res)=>{
    res.render('index',{   // using render method to render view
        name:'Gauri',
-       title:'Weather App'
+       title:'Weather App test'
    })
 })
 
